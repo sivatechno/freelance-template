@@ -1,0 +1,58 @@
+@import '../Common.scss';
+.portfolio{
+    padding-top: 25px;
+    .portfolio-div{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        .portfolio-grid{
+            .port-data{
+                 
+                img{
+                    width: 350px;
+                    padding: 10px; 
+                } 
+                img:hover{
+                    opacity: 0.56;
+                }
+            }
+        }
+    }
+    .portfolio-head{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 25px;
+        h1{
+            font-weight: 600;
+        }
+        .design-content{
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+            .line-one{
+                height: 0.45rem;
+                max-width: 10rem;
+                width: 10rem;
+                background-color: black;
+                border-radius: 10px;
+            }
+            .end-line{
+                height: 0.45rem;
+                max-width: 10rem;
+                width: 10rem;
+                background-color: black;
+                border-radius: 10px;
+            }
+            .star{
+                padding: 0 20px;
+                .icon-star{
+                    font-size: 45px;
+                    color: black;
+                }
+            }
+        }
+    }
+}

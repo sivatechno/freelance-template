@@ -1,0 +1,44 @@
+@import '../Common.scss';
+.landing{
+    height: 90vh;
+    background-color: $--primary;
+    color: white;
+    .landing-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        height: auto;
+        padding-top: 6rem;
+        img{
+            width: 200px;
+            padding-bottom: 10px;
+        }
+        .design-content{
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+            .line-one{
+                height: 0.45rem;
+                max-width: 10rem;
+                width: 10rem;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .end-line{
+                height: 0.45rem;
+                max-width: 10rem;
+                width: 10rem;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .star{
+                padding: 0 20px;
+                .icon-star{
+                    font-size: 45px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

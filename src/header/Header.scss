@@ -1,0 +1,30 @@
+@import '../Common.scss';
+.header{
+    background-color: $--secondary;
+    color: white;
+    .haeder-conetnt{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
+    .left{
+        h1{
+            cursor: pointer;
+        }
+    }
+    .right{
+        a{
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 0px 15px;
+            cursor: pointer;
+        }
+        a:hover{
+            color: $--primary;
+        }
+    }
+}
